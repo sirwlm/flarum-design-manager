@@ -1,0 +1,21 @@
+{
+    "name": "themer",
+    "title": "Themer",
+    "description": "Theme engine",
+    "keywords": ["theme", "themes", "templates"],
+    "version": "0.1.0",
+    "author": {
+        "name": "Andrzej Wielski",
+        "email": "wielski@bk.ru",
+        "homepage": "http://vk.com/wielski"
+    },
+    "license": "GPL",
+    "require": {
+        "flarum": ">=0.1.0-beta.2"
+    },
+    "icon": {
+        "name": "diamond",
+        "backgroundColor": "#42A5F5",
+        "color": "#1565C0"
+    }
+}
