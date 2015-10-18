@@ -18,7 +18,7 @@ You can see all default flarum components here: https://github.com/flarum/core/t
 
 Let's change some discussions list.
 First, open DiscussionList.js file: https://github.com/flarum/core/blob/master/js/forum/src/components/DiscussionList.js
-Then, create empty DiscussionList.js file insite js/forum/src folder (in this extension).
+Then, create empty DiscussionList.js file inside js/forum/src folder (in this extension).
 And paste this code:
 
     import {extend, override} from 'flarum/extend';
@@ -38,9 +38,10 @@ After that you need to select what view function you need to override.
 In our case we have function **view**()
 
 Let's write this code in our file:
-    override(DiscussionList.prototype, 'view', function(){
-      // Here will be view code
-    });
+
+       override(DiscussionList.prototype, 'view', function(){
+              // Here will be view code
+       });
     
 In original file we have some logic. We need to save it, but change return view.
 Let's copy-pase code:
